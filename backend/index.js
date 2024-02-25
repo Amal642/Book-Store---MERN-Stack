@@ -13,7 +13,7 @@ app.use(cors());
 
 app.get('/',(request,response)=>{
     console.log(request);
-    return response.status(234).send("Marhaban Ya akhi va ukhti,Sabah al khair");
+    return response.status(234).send("Hello World");
 });
 
 app.use('/books',booksRoute);
